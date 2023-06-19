@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline:none;
+    scroll-behavior: smooth;
+    
+
+    
+  }
+  :root{
+    --background-color:#d6dfc4;
+    --second-background-color:rgb(216, 189, 155);
+    --text-color:#1d0606;
+    --main-color:rgb(219, 127, 142);
+  
+  }
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  .header{
+     position: fixed;  
+    top: 0;
+    left: -0.5rem;
+    width: 100%;
+    padding: 4.4rem,;
+    background: var(--background-color);
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    z-index: 100;
+  
+  }
+  .header .sticky{
+   border-bottom: .1rem solid rgba(95, 26, 26, 0.363); 
+  }
+  
+  .navbar a{
+    font-size: 1.9rem;
+    color: var(--text-color);
+    margin-right: 20rem;
+    transition: -3s;
+  }
+  .navbar a :hover,
+  .navbar a.active{
+   color:var(--main-color) ;
+  
+  
+  }
+
+  .common{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .best{
+    display: flex;
+    justify-content: space-between;
+   background-color: var(--second-background-color);
+   
+
+  }
+  .best img{
+    width: 90%;
+    height: 40vh;
+  }
+ .best p{
+  font-size: 20px;
+ }
+  .best button{
+    background-color: black;
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 10px;
+      border-color: none;
+  }
+  .discounts{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 80px;
+  }
+  .discounts p{
+    font-size: 20px;
+  }
+  .discounts button{
+    padding: 15px;
+    background-color:black;
+    border-radius: 10px;
+    border-color: none;
+    color: white
+  }
+  .discounts h1{
+    font-size: 50px;
+  }
+  .discounts img{
+    height: 50vh;
+  }
+  .offerss{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+  }
+  .offer1{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--second-background-color);
+  }
+  .offer1 img{
+    width: 250px;
+    height: 180px;
+    margin-top: 40px;
+  }
+  .offer1 p{
+    font-size: 13px;
+  
+  }
+  .serv{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #663f3f;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-around;
+
+  }
+.icons p{
+  font-size: 20px;
+}
+
+.rates{
+  text-align: center;
+  margin-top: 40px;
+  background-color: var(--second-background-color);
+}
+.rates h1{
+  font-size: 30px;
+}
+.rates p{
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.rates img{
+  width: 290px;
+  margin-top: -50px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+ background-color: black;
+ color: white;
+
+}
+.footer p{
+  font-size: 15px;
+}
